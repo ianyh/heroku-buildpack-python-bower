@@ -168,6 +168,9 @@ source $BIN_DIR/steps/cryptography
 # Install dependencies with Pip.
 source $BIN_DIR/steps/pip-install
 
+# Install bower components
+source $BIN_DIR/steps/bower
+
 # Django collectstatic support.
 sub-env $BIN_DIR/steps/collectstatic
 
